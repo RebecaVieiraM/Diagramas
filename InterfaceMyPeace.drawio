@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-07-06T18:22:38.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="fMufSWidgJWzFPDVFVNy" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-06T18:23:36.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="F22iJsTqfylmZWZtb2vy" version="24.6.4" type="github">
   <diagram name="Página-1" id="_Aw1nPuLecOlaeks3R-N">
     <mxGraphModel dx="2501" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="h7Jq9w4hkz23pSaPRMlt-83" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="10" width="530" height="660" as="geometry" />
+          <mxGeometry x="-160" y="10" width="530" height="590" as="geometry" />
         </mxCell>
         <mxCell id="h7Jq9w4hkz23pSaPRMlt-33" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="33ewKRXwi8FONpPjzUx_-1" target="h7Jq9w4hkz23pSaPRMlt-73" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -93,8 +93,8 @@
             <mxPoint x="-26.29213483146077" y="522" as="sourcePoint" />
             <mxPoint x="520" y="544" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-25" y="720" />
-              <mxPoint x="530" y="720" />
+              <mxPoint x="-25" y="640" />
+              <mxPoint x="530" y="640" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -103,13 +103,13 @@
           <mxGeometry x="632" y="459" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="33ewKRXwi8FONpPjzUx_-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Psicólogo&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- numeroRegistro: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- autoCadastrar(Usuário ps): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- cadastrarPaciente(Usuário ps): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- excluirContaPaciente(Usuário ps): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="384" width="230" height="131" as="geometry" />
+          <mxGeometry x="-140" y="384" width="230" height="126" as="geometry" />
         </mxCell>
         <mxCell id="33ewKRXwi8FONpPjzUx_-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;Diário&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="440" y="435" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="33ewKRXwi8FONpPjzUx_-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;Paciente&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- cpf&lt;span style=&quot;background-color: initial;&quot;&gt;: int&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- alterarSenha(Usuário pa): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- iniciarCronometro(Usuário pa): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- reiniciarCronometro(Usuário pa): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- zerarCronometro(Usuário pa): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- adicionarDiario(Usuário pa): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- alterarDiario(Usuário pa): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- deletarDiario(Usuário pa): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- visualizarDiario(Usuário pa): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="120" y="385" width="230" height="200" as="geometry" />
+          <mxGeometry x="120" y="385" width="230" height="195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
