@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T12:26:06.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="D9TRMuHU678aNBGTS2dC" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T12:27:02.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1h5uwMuIPgmCUX1awPlG" version="24.6.4" type="github">
   <diagram name="Página-1" id="_Aw1nPuLecOlaeks3R-N">
     <mxGraphModel dx="2065" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="h7Jq9w4hkz23pSaPRMlt-83" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="10" width="530" height="660" as="geometry" />
+          <mxGeometry x="-160" y="10" width="530" height="550" as="geometry" />
         </mxCell>
         <mxCell id="h7Jq9w4hkz23pSaPRMlt-33" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="BuMtdkC_AGbICXeLpYEw-1" target="h7Jq9w4hkz23pSaPRMlt-73" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -93,8 +93,8 @@
             <mxPoint x="-25" y="510" as="sourcePoint" />
             <mxPoint x="530" y="535" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-25" y="720" />
-              <mxPoint x="530" y="720" />
+              <mxPoint x="-25" y="600" />
+              <mxPoint x="530" y="600" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -136,7 +136,7 @@
           <mxGeometry y="26" width="204" height="8" as="geometry" />
         </mxCell>
         <mxCell id="BuMtdkC_AGbICXeLpYEw-26" value="DBConnection" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="281.75" y="1090" width="160" height="60" as="geometry" />
+          <mxGeometry x="281.75" y="1010" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BuMtdkC_AGbICXeLpYEw-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="BuMtdkC_AGbICXeLpYEw-26" vertex="1">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
@@ -145,7 +145,7 @@
           <mxGeometry y="34" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BuMtdkC_AGbICXeLpYEw-30" value="PsicologoDAOImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-158.25" y="950" width="160" height="60" as="geometry" />
+          <mxGeometry x="-158.25" y="870" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BuMtdkC_AGbICXeLpYEw-31" value="- conn: PDO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuMtdkC_AGbICXeLpYEw-30" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -155,17 +155,17 @@
         </mxCell>
         <mxCell id="BuMtdkC_AGbICXeLpYEw-34" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" source="BuMtdkC_AGbICXeLpYEw-30" target="BuMtdkC_AGbICXeLpYEw-26" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-163" y="1140" as="sourcePoint" />
-            <mxPoint x="-3" y="1140" as="targetPoint" />
+            <mxPoint x="-163" y="1060" as="sourcePoint" />
+            <mxPoint x="-3" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BuMtdkC_AGbICXeLpYEw-35" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPsicologoDAO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- autoCadastrar(Usuário ps): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- cadastrarPaciente(Usuário ps): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- excluirContaPaciente(Usuário ps): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-190" y="750" width="223.5" height="125" as="geometry" />
+          <mxGeometry x="-190" y="670" width="223.5" height="125" as="geometry" />
         </mxCell>
         <mxCell id="BuMtdkC_AGbICXeLpYEw-36" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="1" source="BuMtdkC_AGbICXeLpYEw-30" target="BuMtdkC_AGbICXeLpYEw-35" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-220" y="930" as="sourcePoint" />
-            <mxPoint x="-60" y="930" as="targetPoint" />
+            <mxPoint x="-220" y="850" as="sourcePoint" />
+            <mxPoint x="-60" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-2" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="BuMtdkC_AGbICXeLpYEw-35" target="BuMtdkC_AGbICXeLpYEw-1">
@@ -175,7 +175,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPacienteDAO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- alterarSenha(Usuário pa): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- adicionarDiario(Usuário pa): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- alterarDiario(Usuário pa): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- deletarDiario(Usuário pa): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- visualizarDiario(Usuário pa): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="250" y="750" width="223.5" height="150" as="geometry" />
+          <mxGeometry x="250" y="670" width="223.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="vwRm-bBmVgYVy7T4dSqP-3" target="BuMtdkC_AGbICXeLpYEw-9">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -184,7 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-5" value="PacienteDAOImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="281.75" y="950" width="160" height="60" as="geometry" />
+          <mxGeometry x="281.75" y="870" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-6" value="- conn: PDO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vwRm-bBmVgYVy7T4dSqP-5">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -194,21 +194,21 @@
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-9" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="vwRm-bBmVgYVy7T4dSqP-5" target="vwRm-bBmVgYVy7T4dSqP-3">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-70" y="1040" as="sourcePoint" />
-            <mxPoint x="-69" y="885" as="targetPoint" />
+            <mxPoint x="-70" y="960" as="sourcePoint" />
+            <mxPoint x="-69" y="805" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-10" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="vwRm-bBmVgYVy7T4dSqP-5" target="BuMtdkC_AGbICXeLpYEw-26">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="10" y="1070" as="sourcePoint" />
-            <mxPoint x="100" y="1070" as="targetPoint" />
+            <mxPoint x="10" y="990" as="sourcePoint" />
+            <mxPoint x="100" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IDiarioDAO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getAllRegistros(): List&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getRegistro(id): User&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ updateregistro(User u): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ deleteRegistro(User u): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="650.5" y="740" width="223.5" height="150" as="geometry" />
+          <mxGeometry x="650.5" y="660" width="223.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-12" value="DiarioDAOImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="682.25" y="950" width="160" height="60" as="geometry" />
+          <mxGeometry x="682.25" y="870" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-13" value="- conn: PDO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vwRm-bBmVgYVy7T4dSqP-12">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -218,14 +218,14 @@
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="vwRm-bBmVgYVy7T4dSqP-12" target="vwRm-bBmVgYVy7T4dSqP-11">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="372" y="960" as="sourcePoint" />
-            <mxPoint x="372" y="910" as="targetPoint" />
+            <mxPoint x="372" y="880" as="sourcePoint" />
+            <mxPoint x="372" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-16" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="vwRm-bBmVgYVy7T4dSqP-12" target="BuMtdkC_AGbICXeLpYEw-26">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="372" y="1020" as="sourcePoint" />
-            <mxPoint x="372" y="1100" as="targetPoint" />
+            <mxPoint x="372" y="940" as="sourcePoint" />
+            <mxPoint x="372" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vwRm-bBmVgYVy7T4dSqP-17" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="vwRm-bBmVgYVy7T4dSqP-11" target="BuMtdkC_AGbICXeLpYEw-20">
